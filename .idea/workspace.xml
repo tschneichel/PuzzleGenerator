@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="021e659c-73f5-475e-a114-ec0608c5c5a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PuzzleScreen.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/PuzzleScreen.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PuzzleScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PuzzleScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,6 +31,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="245" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PuzzleScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PuzzleScreen" />
+      <module name="PuzzleGenerator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PuzzleScreen" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -47,13 +70,57 @@
       <option name="presentableId" value="Default" />
       <updated>1614204440864</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial empty screen">
+      <created>1614208083138</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614208083138</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial empty screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial empty screen" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1579" y="299" key="CommitChangelistDialog2" timestamp="1614206097807">
+    <state x="2057" y="615" key="#com.intellij.ide.util.MemberChooser" timestamp="1615645977099">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1579" y="299" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1614206097807" />
+    <state x="2057" y="615" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1615645977099" />
+    <state x="1130" y="533" key="#com.intellij.uiDesigner.palette.ComponentItemDialog" timestamp="1615646246198">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1130" y="533" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1615646246198" />
+    <state x="1579" y="299" key="CommitChangelistDialog2" timestamp="1614208082776">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1579" y="299" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1614208082776" />
+    <state width="2517" height="399" key="GridCell.Tab.0.bottom" timestamp="1615661129700">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1615661129700" />
+    <state width="2517" height="399" key="GridCell.Tab.0.center" timestamp="1615661129700">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="399" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1615661129700" />
+    <state width="2517" height="399" key="GridCell.Tab.0.left" timestamp="1615661129700">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="399" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1615661129700" />
+    <state width="2517" height="399" key="GridCell.Tab.0.right" timestamp="1615661129700">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="399" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1615661129700" />
+    <state x="1512" y="440" key="Vcs.Push.Dialog.v2" timestamp="1614208084782">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1512" y="440" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1614208084782" />
+    <state x="1052" y="595" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1615647480461">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1052" y="595" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1615647480461" />
     <state x="1583" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1614206110416">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
