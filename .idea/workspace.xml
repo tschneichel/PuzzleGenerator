@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="021e659c-73f5-475e-a114-ec0608c5c5a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/GUIGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Puzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PuzzleEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skyscraper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PuzzleScreen.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/PuzzleScreen.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PuzzleScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PuzzleScreen.java" afterDir="false" />
@@ -85,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615661159852</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Minor additions to code, still no visible TextFields">
+      <created>1615758854581</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615758854581</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,7 +104,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -102,7 +115,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial empty screen" />
     <MESSAGE value="Learning some screen magic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learning some screen magic" />
+    <MESSAGE value="Minor additions to code, still no visible TextFields" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor additions to code, still no visible TextFields" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2057" y="615" key="#com.intellij.ide.util.MemberChooser" timestamp="1615645977099">
@@ -117,68 +131,61 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="734" y="257" width="899" height="766" key="#xdebugger.evaluate/0.0.2560.1400@0.0.2560.1400" timestamp="1615758046752" />
-    <state x="1579" y="299" key="CommitChangelistDialog2" timestamp="1615661159373">
+    <state x="1579" y="299" key="CommitChangelistDialog2" timestamp="1615758854204">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1579" y="299" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1615661159373" />
+    <state x="1579" y="299" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1615758854204" />
     <state x="1192" y="-7" width="1094" height="1207" maximized="true" key="DiffContextDialog" timestamp="1615749077012">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1192" y="-7" width="1094" height="1207" maximized="true" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1615749077012" />
-    <state width="2517" height="488" key="GridCell.Tab.0.bottom" timestamp="1615758832922">
+    <state width="2517" height="400" key="GridCell.Tab.0.bottom" timestamp="1616955782402">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="488" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1615758832922" />
-    <state width="2517" height="488" key="GridCell.Tab.0.center" timestamp="1615758832922">
+    <state width="2517" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1616955782402" />
+    <state width="2517" height="400" key="GridCell.Tab.0.center" timestamp="1616955782402">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="488" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1615758832922" />
-    <state width="2517" height="488" key="GridCell.Tab.0.left" timestamp="1615758832921">
+    <state width="2517" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1616955782402" />
+    <state width="2517" height="400" key="GridCell.Tab.0.left" timestamp="1616955782402">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="488" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1615758832921" />
-    <state width="2517" height="488" key="GridCell.Tab.0.right" timestamp="1615758832922">
+    <state width="2517" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1616955782402" />
+    <state width="2517" height="400" key="GridCell.Tab.0.right" timestamp="1616955782402">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="488" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1615758832922" />
-    <state width="2517" height="488" key="GridCell.Tab.1.bottom" timestamp="1615758832922">
+    <state width="2517" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1616955782402" />
+    <state width="2517" height="488" key="GridCell.Tab.1.bottom" timestamp="1615759325649">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="488" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1615758832922" />
-    <state width="2517" height="488" key="GridCell.Tab.1.center" timestamp="1615758832922">
+    <state width="2517" height="488" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1615759325649" />
+    <state width="2517" height="488" key="GridCell.Tab.1.center" timestamp="1615759325649">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="488" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1615758832922" />
-    <state width="2517" height="488" key="GridCell.Tab.1.left" timestamp="1615758832922">
+    <state width="2517" height="488" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1615759325649" />
+    <state width="2517" height="488" key="GridCell.Tab.1.left" timestamp="1615759325649">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="488" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1615758832922" />
-    <state width="2517" height="488" key="GridCell.Tab.1.right" timestamp="1615758832922">
+    <state width="2517" height="488" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1615759325649" />
+    <state width="2517" height="488" key="GridCell.Tab.1.right" timestamp="1615759325649">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="488" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1615758832922" />
-    <state x="1512" y="440" key="Vcs.Push.Dialog.v2" timestamp="1615661161452">
+    <state width="2517" height="488" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1615759325649" />
+    <state x="1512" y="440" key="Vcs.Push.Dialog.v2" timestamp="1615758856164">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="440" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1615661161452" />
+    <state x="1512" y="440" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1615758856164" />
     <state x="1052" y="595" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1615647480461">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1052" y="595" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1615647480461" />
-    <state x="1583" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1614206110416">
+    <state x="1302" y="331" key="new project wizard" timestamp="1616189364549">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1583" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1614206110416" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PuzzleScreen.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="1302" y="331" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1616189364549" />
+    <state x="1583" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1616948701162">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1583" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1616948701162" />
   </component>
 </project>

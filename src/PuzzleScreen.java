@@ -1,41 +1,37 @@
-import java.awt.*;
 import javax.swing.*;
-import javax.swing.border.Border;
 
 public class PuzzleScreen {
-    private static final Font FONT = new Font("Verdana", Font.CENTER_BASELINE, 20);
+
+
+
+    // GUI Variables
+    private JFrame mainFrame = new JFrame("Puzzle Frame");
     private JPanel rootPanel;
     private JButton generateNewPuzzleButton;
     private JComboBox dimensionDropdown;
-    private JTextField labelTextField1;
     private JPanel SudokuFieldPanel;
     private JLabel dimensionLabel;
-    private JTextField[][] grid;
+    private JComboBox puzzleTypeDropdown;
+    private JLabel setPuzzleTypeLabel;
     private JPanel[][] minisquarePanels;
+
+    // SUDOKUFIELD Variables
+    private int dimension;
+    private Puzzle puzzle;
 
     public PuzzleScreen() {
         generateNewPuzzleButton.addActionListener(actionEvent -> generateGrid());
     }
 
     private void generateGrid() {
-        int dimension = ((int) dimensionDropdown.getSelectedItem());
-        this.grid = new JTextField[dimension][dimension];
-        this.SudokuFieldPanel = new JPanel();
-        Border border = BorderFactory.createLineBorder(Color.BLACK, 1);
-        Dimension fieldDimension = new Dimension(30, 30);
-        for (int x = 0; x < dimension; x++) {
-            for (int y = 0; y < dimension; y++) {
-                JTextField field = new JTextField();
-                field.setBorder(border);
-                field.setFont(new Font("i",3,4));
-                field.setPreferredSize(fieldDimension);
-                grid[x][y] = field;
-                this.SudokuFieldPanel.add(field);
-            }
-        }
-        this.SudokuFieldPanel.setBorder(BorderFactory.createLineBorder(Color.BLACK, 2));
-        SudokuFieldPanel.updateUI();
-        SudokuFieldPanel.setVisible(true);
+        dimension = ((int) dimensionDropdown.getSelectedItem());
+        GUIGenerator generator = new GUIGenerator(dimension);
+        JPanel[] rows = generator.generateJLabels();
+        rootPanel = generator.generateRootPanel(rows);
+        generator.initializeMainFrame(mainFrame);
+        mainFrame.getContentPane().add(rootPanel);
+        //create frame and add main panel
+
     }
 
     public static void main(String[] args) {
@@ -47,10 +43,16 @@ public class PuzzleScreen {
     }
 
     private void createUIComponents() {
+        // create dimension dropdown list and set standard value
         dimensionDropdown = new JComboBox();
         for (int i = 2; i <= 9; i++){
             dimensionDropdown.addItem(i);
         }
         dimensionDropdown.setSelectedItem(8);
+
+        // create puzzle type dropdown list and set standard value
+        puzzleTypeDropdown = new JComboBox();
+        puzzleTypeDropdown.addItem("Skyscraper");
+        dimensionDropdown.setSelectedItem("Skyscraper");
     }
 }
